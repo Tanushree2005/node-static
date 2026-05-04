@@ -16,7 +16,7 @@ app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
 // API
 app.get('/api/products', (req, res) => {
-  const filePath = path.resolve(__dirname, 'products.json');
+ const filePath = path.resolve(__dirname, 'public', 'products.json');
 
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
