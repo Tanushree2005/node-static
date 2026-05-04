@@ -3,18 +3,18 @@
     "id": 1,
     "name": "Wireless Headphones",
     "price": 59.99,
-    "image": "/headphones.jpg"
+    "image": "headphones.jpg"
   },
   {
     "id": 2,
     "name": "Bluetooth Speaker",
     "price": 29.99,
-    "image": "/speaker.webp"
+    "image": "speaker.webp"
   },
   {
     "id": 3,
     "name": "Smart Watch",
     "price": 99.99,
-    "image": "/watch.png"
+    "image": "watch.png"
   }
 ]
