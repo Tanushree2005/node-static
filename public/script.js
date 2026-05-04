@@ -1,4 +1,4 @@
-fetch('/api/products')
+fetch('/products.json')
   .then(res => res.json())
   .then(products => {
     const container = document.getElementById('productList');
