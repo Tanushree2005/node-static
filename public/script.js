@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/api/products')
+fetch('products.json')
   .then(res => res.json())
   .then(products => {
     const container = document.getElementById('productList');
